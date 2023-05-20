@@ -4,4 +4,4 @@
 # And I use "fit_transform method" on them "X[:,2] = le.fit_transform(X[:,2])"
 # Then I import "ColumnTransformer" and "OneHotEncoder" and I encode my columns "Geography column", so first I prepare my "fransformer" 
 # I put into my "transformer" "OneHotEncoder", then will be my [1] variable, so "Geography"
-# Then I use "ColumnTransformer" all "X" wariable 
+# Then I use "ColumnTransformer" to transform my "X" and create arry using numpy, I save it all as new "X" "X = np.array(ct.fit_transform(X))"
