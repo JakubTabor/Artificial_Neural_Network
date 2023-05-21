@@ -7,3 +7,4 @@
 # Then I use "ColumnTransformer" to transform my "X" and create arry using numpy, I save it all as new "X" "X = np.array(ct.fit_transform(X))"
 # Now I can import "train_test_split" and get "train" and "test" set 
 # Then I need to scale my values, so i put into my scaler "X_train, X_test"
+# Now I can create my model "ann = tf.keras.models.Sequential()" 
