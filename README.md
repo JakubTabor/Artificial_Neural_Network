@@ -6,3 +6,4 @@
 # I put into my "transformer" "OneHotEncoder", then will be my [1] variable, so "Geography"
 # Then I use "ColumnTransformer" to transform my "X" and create arry using numpy, I save it all as new "X" "X = np.array(ct.fit_transform(X))"
 # Now I can import "train_test_split" and get "train" and "test" set 
+# Then I need to scale my values, so i put into my scaler "X_train, X_test"
