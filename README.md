@@ -10,3 +10,4 @@
 # Now I can create my model "ann = tf.keras.models.Sequential()" 
 # I put into two hidden layers with six neurons and activation "relu" and output layers with 1 neuron and activation "sigmoid"
 # Then I comiple my model with classic optimizer "adam", loss "binary crossentropy", because i have binary output, and metrics will be solo "accuracy"
+# Next I train my model with "X_train, y_train" my batch gradient descent will be 32, so it gonna take 32 batches, then 100 epochs 
