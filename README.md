@@ -12,3 +12,4 @@
 # Then I comiple my model with classic optimizer "adam", loss "binary crossentropy", because i have binary output, and metrics will be solo "accuracy"
 # Next I train my model with "X_train, y_train" my batch gradient descent will be 32, so it gonna take 32 batches, then 100 epochs 
 # Then I print my model predictions for some values 
+# Now I prepare "y_pred" and check predictions, I "concatenate" my "y_pred" with "y_test" and reshape them into columns 
