@@ -9,3 +9,4 @@
 # Then I need to scale my values, so i put into my scaler "X_train, X_test"
 # Now I can create my model "ann = tf.keras.models.Sequential()" 
 # I put into two hidden layers with six neurons and activation "relu" and output layers with 1 neuron and activation "sigmoid"
+# Then I comiple my model with classic optimizer "adam", loss "binary crossentropy", because i have binary output, and metrics will be solo "accuracy"
